@@ -1,0 +1,102 @@
+:root {
+  --dark-color: #333;
+  --medium-color: #ccc;
+  --main-color: #ffbc00;
+}
+
+
+/********************* Padding *********************/
+.py-1 {
+  padding: 1rem 0; 
+}
+
+.py-2 {
+  padding: 2rem 0; 
+}
+
+.py-3 {
+  padding: 3rem 0; 
+}
+
+.py-4 {
+  padding: 4rem 0; 
+}
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: var(--main-color);
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.text-center {
+  text-align: center; 
+}
+
+.btn-main {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+  color: var(--dark-color);
+  background-color: var(--main-color);
+}
+
+.btn-light {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+  color: var(--dark-color);
+  background-color: #f4f4f4;
+}
+
+.btn-dark {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+  color: #f4f4f4;
+  background-color: var(--dark-color);
+}
+
+.bg-dark {
+  background: var(--dark-color);
+  color: #fff; 
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #000; 
+}
+
+.bg-main {
+  background: var(--main-color);
+  color: #fff; }
+
+#header-inner {
+  background: url('../img/showcase.jpg') no-repeat 20% 30% / cover;
+  height: 5.5rem;
+  border-bottom: 3px solid var(--main-color);
+}
+
+/********************* Logo *********************/
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase;
+}
